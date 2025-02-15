@@ -1,6 +1,7 @@
 # Strype_Payment_Manage
 
 # Features:
+This is a small project that enables payment processing via Stripe.
 
 1- Website 
 ## 1. Layout
