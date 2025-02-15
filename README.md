@@ -3,23 +3,25 @@
 # Features:
 This is a small project that enables payment processing via Stripe.
 
-1- Website 
-## 1. Layout
+## 1. Demo
+
+https://github.com/user-attachments/assets/e124b9f8-3733-4a16-a949-087b35b77133
+
+
+## 2. Layout
 ![image](https://github.com/user-attachments/assets/602c1d37-104d-437f-a69c-72e1afde927d)
 
 ![image](https://github.com/user-attachments/assets/45f5c7de-ccb2-4f0a-8b2e-ba29c81b47da)
 
-## 2. Flow Layout Product Management:
+## 3. Flow Layout Product Management:
 
 ![image](https://github.com/user-attachments/assets/4928a9c2-0ea4-4bfb-a6fb-30bfd9058738)
 
 Refer more detail from strype document :https://docs.stripe.com/payments/paymentintents/lifecycle  
-## 3. Demo
 
-Installation Guide
+Installation Guide  
 
-
-## Install node.js
+## Install node.js  
 1. https://nodejs.org/en/download
 Node v22.11.0 (LTS)
 
