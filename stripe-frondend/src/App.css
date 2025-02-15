@@ -1,0 +1,217 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh; /* Chiều cao toàn màn hình */
+}
+.payment-form {
+  width: 800px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Định dạng form chính */
+.form-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng từng hàng */
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Định dạng cột label */
+.form-label {
+  min-width: 150px; /* Độ rộng cố định */
+  text-align: right; /* Căn phải */
+  padding-right: 10px; /* Khoảng cách giữa label và input */
+  font-weight: bold;
+}
+
+/* Định dạng cột input */
+.form-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Định dạng nút bấm */
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background: #0056b3;
+}
+
+.payment-container {
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.readonly {
+  background-color: #f3f3f3;
+}
+
+/* Card container now fills width properly */
+.card-container {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Button container: places buttons in one row */
+.button-group {
+  display: flex;
+  justify-content: space-between; /* Spaces out buttons */
+  gap: 10px; /* Adds spacing between buttons */
+  margin-top: 10px;
+}
+
+/* Back button style */
+.btn-back {
+  text-align: center;
+
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: gray; /* Different color from payment button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Payment button style */
+.btn-payment {
+  flex: 1;
+  padding: 1px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-payment:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Hover effect */
+.btn-back:hover {
+  background-color: darkgray;
+}
+
+.btn-payment:hover {
+  background-color: darkgreen;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
