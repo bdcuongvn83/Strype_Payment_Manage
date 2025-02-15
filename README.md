@@ -52,18 +52,18 @@ Need update your secret key from strype API
 
 ## How to run
 
-1. Firstly, run backend.
-From cmd, move to folder backend
-npm run start:dev
-(run option start:dev, help us when change source code, source code will aumatically be builded.
-(run with port 3000)
-2. Run frondend
-npm start
-(run with port )
-3. Open browser, run url:
-http://localhost:5173
-4. using data test below:
-![image](https://github.com/user-attachments/assets/836cfb84-93a2-4412-8c12-9aa410ae6fd8)
+1. Firstly, run backend.  
+From cmd, move to folder backend  
+npm run start:dev  
+(run option start:dev, help  us when change source code, source code will aumatically be builded.  
+(run with port 3000)  
+2. Run frondend   
+npm start  
+(run with port )  
+3. Open browser, run url:  
+http://localhost:5173  
+4. using data test below:  
+![image](https://github.com/user-attachments/assets/836cfb84-93a2-4412-8c12-9aa410ae6fd8)  
 
 ## Contributions  
 Contributions are welcome! Please open an issue or submit a pull request.  
